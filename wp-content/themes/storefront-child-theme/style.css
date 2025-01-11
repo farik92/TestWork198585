@@ -1,0 +1,31 @@
+/*
+Theme Name:   	Storefront Child Theme
+Author:       	Farhod Azizov
+Author URI:     https://t.me/sugdweb
+Template:     	storefront
+Description:  	Child theme for the Storefront WooCommerce theme. You can replace all this information with your own.
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+*/
+
+.city-search {
+    margin-bottom: 1.5rem;
+}
+
+.city-search, .city-search * {
+    display: block;
+    width: 100%;
+}
+
+.city-search label {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+button.pagination-btn.active {
+    pointer-events: none;
+    background: #7f54b3;
+    color: #fff;
+}
